@@ -21,11 +21,11 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>1.8</java.version>
+		<java.version>17</java.version>
 		<tomcat.port>9081</tomcat.port>
 	    <tomcat.ip>127.0.0.1</tomcat.ip>
 	    <file>readme</file>
-		<lombok.version>1.18.10</lombok.version>
+		<lombok.version>1.18.34</lombok.version>
 	</properties>
 
 	<dependencies>
@@ -92,23 +92,23 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-              <groupId>com.castsoftware</groupId>
-              <artifactId>imaging-cloud-analyzer-maven-plugin</artifactId>
-              <version>1.0.0-SNAPSHOT</version>
-              <executions>
-                <execution>
-			<phase>package</phase>
-                  <goals>
-                    <goal>run</goal>
-                  </goals>
-                </execution>
-              </executions>
-              <configuration>
-                <apiKey>dhnc4P3a.X4ZgZLEKxUaTQ8N4riWnRHUf5TD79OZT.5</apiKey>
-		<imagingServerUrl>https://imaging-dev.castsoftware.io/</imagingServerUrl>
-              </configuration>
-            </plugin>
+<!--			<plugin>-->
+<!--              <groupId>com.castsoftware</groupId>-->
+<!--              <artifactId>imaging-cloud-analyzer-maven-plugin</artifactId>-->
+<!--              <version>1.0.0-SNAPSHOT</version>-->
+<!--              <executions>-->
+<!--                <execution>-->
+<!--			<phase>package</phase>-->
+<!--                  <goals>-->
+<!--                    <goal>run</goal>-->
+<!--                  </goals>-->
+<!--                </execution>-->
+<!--              </executions>-->
+<!--              <configuration>-->
+<!--                <apiKey>dhnc4P3a.X4ZgZLEKxUaTQ8N4riWnRHUf5TD79OZT.5</apiKey>-->
+<!--		<imagingServerUrl>https://imaging-dev.castsoftware.io/</imagingServerUrl>-->
+<!--              </configuration>-->
+<!--            </plugin>-->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
